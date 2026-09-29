@@ -4,7 +4,7 @@
    por JSON.stringify na ida e JSON.parse na volta.
    ========================================================= */
 
-const Armazenamento = {
+export const Armazenamento = {
 
   CHAVE_CADASTROS: "semear:cadastros",
   CHAVE_RASCUNHO: "semear:rascunho",

@@ -3,7 +3,10 @@
    Cada componente visual vira uma função reaproveitável.
    ========================================================= */
 
-const Templates = {
+import { DADOS } from "./dados.js";
+import { Armazenamento } from "./armazenamento.js";
+
+export const Templates = {
 
   /* ---------- componentes reaproveitáveis ---------- */
 

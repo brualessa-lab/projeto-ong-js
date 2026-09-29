@@ -5,7 +5,7 @@
    módulo validacao.js; aqui só cuidamos da formatação.
    ========================================================= */
 
-const Mascaras = {
+export const Mascaras = {
 
   /* cada campo do formulário e o formato que ele aceita */
   formatos: {

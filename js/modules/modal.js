@@ -4,7 +4,9 @@
    roteador, o controle passou para uma classe aplicada por JS.
    ========================================================= */
 
-const Modal = {
+import { Templates } from "./templates.js";
+
+export const Modal = {
 
   abrir(id) {
     const caixa = document.getElementById(id);

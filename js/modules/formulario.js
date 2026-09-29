@@ -4,7 +4,11 @@
    pelo roteador depois que a página já carregou.
    ========================================================= */
 
-const Formulario = {
+import { Validacao } from "./validacao.js";
+import { Armazenamento } from "./armazenamento.js";
+import { Templates } from "./templates.js";
+
+export const Formulario = {
 
   ID: "form-cadastro",
 

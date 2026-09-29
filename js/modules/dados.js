@@ -3,7 +3,7 @@
    Alterar um projeto aqui muda a tela inteira, sem tocar no HTML.
    ========================================================= */
 
-const DADOS = {
+export const DADOS = {
 
   ong: {
     nome: "Instituto Semear",

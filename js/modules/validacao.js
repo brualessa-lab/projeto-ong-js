@@ -3,7 +3,7 @@
    Funções puras: recebem um valor e devolvem verdadeiro ou falso.
    ========================================================= */
 
-const Validacao = {
+export const Validacao = {
 
   /* mantém só os dígitos de um texto */
   digitos(valor) {

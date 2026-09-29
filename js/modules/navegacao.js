@@ -4,7 +4,9 @@
    sem o navegador recarregar a página.
    ========================================================= */
 
-const Navegacao = {
+import { Templates } from "./templates.js";
+
+export const Navegacao = {
 
   /* cada rota aponta para a função de template que a desenha */
   rotas: {
